@@ -1,3 +1,9 @@
+var typed = new Typed(".typing", {
+    strings: ["Web Developer", "Mathematics Student", "python programmer", "web designer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
 /*===== MENU SHOW =====*/ 
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
